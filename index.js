@@ -20,6 +20,8 @@ dbConnect();
 // Rotas - middlewares
 // At a postman wil be -> 8080/user/register
 app.use("/user", userRoute);
+// app.use('/cidadao', cidadaoRoute);
+// app.use('/registro', registroRoute);
 
 // Server will Up 
 
