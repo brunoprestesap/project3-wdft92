@@ -1,3 +1,42 @@
+# Bem Vindo ao Projeto do App ⧉ **Controle de Atendimento ao Cidadão e acesso ao Serviço Público** →
+
+_Controle de atendimento Serviços Públicos / Controle de Acesso aos Prédios_
+
+obs: as fotos e nomes foram reaproveitadas principalmente da documentação dos Labs de aula.
+
+Trata esta página, do 2º projeto entregue pela equipe:
+
+- _Annielli A. R. Cunha_
+- _Bruno Prestes_
+- _Sergio A. Francalino_
+- _Anderson T. Toma_
+
+Alunos do bootcamp, turma 92 da Ironhack: https://www.ironhack.com/br
+
+Dada a necessidade de controle aos prédios públicos e seus serviços, assim como a inexistência em vários locais públicos desse controle informatizado, nos propusemos o desenvolvimento deste aplicativo.
+
+O objetivo deste módulo foi demonstrar o uso do CRUD aprendido em aula no módulo 2, assim como o uso do REACT.
+
+# Servidor / Banco de dados - Back do front em: <colocar endereço aqui>
+
+# Do template base
+
+## get('/all-cidadaos')
+
+## get('/oneCidadao/:cidadaoId')
+
+## get('/oneCidadao/:cidadaoId')
+
+## post('/create-registro/:idCidadao')
+
+## put('/saida/:idCidadao')
+
+## put('/status/:idCidadao')
+
+# consumo das APIs de cidadao
+
+# consumo das APIs de serviço
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
