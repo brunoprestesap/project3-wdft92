@@ -1,26 +1,24 @@
 {
-  "name": "day1",
+  "name": "project3",
   "version": "1.0.0",
-<<<<<<< HEAD
-=======
-  "description": "Primeiro servidor da turma enap 92",
->>>>>>> 49e0753ea46944b5b1c0b02a21acc7de791835f2
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
-<<<<<<< HEAD
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunoprestesap/project3-wdft92.git"
-=======
->>>>>>> 49e0753ea46944b5b1c0b02a21acc7de791835f2
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoprestesap/project3-wdft92/issues"
+  },
+  "homepage": "https://github.com/brunoprestesap/project3-wdft92#readme",
+  "keywords": [],
+  "description": "The Final BackEnd project3",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cloudinary": "^1.32.0",
@@ -29,26 +27,11 @@
     "express": "^4.18.2",
     "express-jwt": "^7.7.7",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.7.4",
+    "mongoose": "^6.8.0",
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0",
-    "nodemailer": "^6.8.0",
-    "uuidv4": "^6.2.13"
+    "nodemailer": "^6.8.0"
   },
-<<<<<<< HEAD
-  "homepage": "https://github.com/brunoprestesap/project3-wdft92#readme",
-  "keywords": [],
-  "description": "The Final BackEnd project3",
-  "dependencies": {
-    "bcrypt": "^5.1.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-jwt": "^7.7.7",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.8.0"
-  },
-=======
->>>>>>> 49e0753ea46944b5b1c0b02a21acc7de791835f2
   "devDependencies": {
     "nodemon": "^2.0.20"
   }

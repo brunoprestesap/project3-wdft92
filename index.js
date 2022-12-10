@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 import connect from './config/db.config.js';
 import userRoute from './routes/user.routes.js';
-import taskRoute from './routes/task.routes.js';
+import serviceRoute from './routes/service.routes.js';
 import uploadRoute from './routes/uploadImage.routes.js';
 import logRoute from './routes/log.routes.js';
 // !---------------
@@ -26,7 +26,7 @@ app.use(express.json());
 connect();
 
 app.use('/user', userRoute);
-app.use('/task', taskRoute);
+app.use('/service', serviceRoute);
 app.use('/uploadImage', uploadRoute);
 app.use('/log', logRoute);
 // !----------------------

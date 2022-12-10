@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import jwt from "jsonwebtoken";
-
-const generateToken = (user) => {
-  const { _id, name, email, role } = user;
-  const signature = process.env.TOKEN_SIGN_SECRET;
-  const expiration = "16h";
-
-  return jwt.sign({ _id, name, email, role }, signature, {
-    expiresIn: expiration,
-  });
-};
-=======
 import jwt from 'jsonwebtoken';
 
 function generateToken(user) {
@@ -32,6 +19,5 @@ function generateToken(user) {
   //3º config : determino a expiração do token
   return jwt.sign({ _id, email, role }, signature, { expiresIn: expiration });
 }
->>>>>>> 49e0753ea46944b5b1c0b02a21acc7de791835f2
 
 export default generateToken;
