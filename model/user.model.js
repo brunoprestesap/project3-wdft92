@@ -31,7 +31,7 @@ const userSchema = new Schema(
       type: Boolean,
       default: true,
     },
-    tasks: [{ type: Schema.Types.ObjectId, ref: "Task" }],
+    services: [{ type: Schema.Types.ObjectId, ref: "Service" }],
     passwordHash: { type: String, required: true },
     profilePic: { type: String },
     confirmEmail: { type: Boolean, default: false },

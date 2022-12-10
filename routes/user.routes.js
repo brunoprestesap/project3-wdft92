@@ -1,5 +1,5 @@
 import express from "express";
-import TaskModel from "../model/task.model.js";
+import ServiceModel from "../model/service.model.js";
 import UserModel from "../model/user.model.js";
 import bcrypt from "bcrypt";
 import generateToken from "../config/jwt.config.js";
@@ -206,7 +206,7 @@ userRoute.delete("/delete", isAuth, attachCurrentUser, async (req, res) => {
     }
 
     //deletar TODAS as tarefas que o usuário é dono
-    await TaskModel.deleteMany({ user: req.currentUser._id });
+    await ServiceModel.deleteMany({ user: req.currentUser._id });
 
     return res.status(200).json(users);
   } catch (error) {
@@ -252,7 +252,7 @@ userRoute.get("/oneUser/:id", async (req, res) => {
     const { id } = req.params;
 
     // const user = await UserModel.find({_id: id})
-    const user = await UserModel.findById(id).populate("tasks");
+    const user = await UserModel.findById(id).populate("services");
 
     if (!user) {
       return res.status(400).json({ msg: " Usuário não encontrado!" });
